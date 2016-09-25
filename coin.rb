@@ -2,8 +2,8 @@ require 'formula'
 
 class Coin < Formula
   homepage "https://bitbucket.org/Coin3D/coin/wiki/Home"
-  url "583478c581317862aa03a19f14c527c3888478a06284b9a46a0155fa5886d417"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  url "https://bitbucket.org/Coin3D/coin/downloads/Coin-3.1.3.tar.gz"
+  sha256 "583478c581317862aa03a19f14c527c3888478a06284b9a46a0155fa5886d417"
 
   option "without-soqt", "Build without SoQt"
 
