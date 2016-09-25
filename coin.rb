@@ -22,14 +22,14 @@ class Coin < Formula
   # https://bitbucket.org/Coin3D/coin/pull-request/3/missing-include/diff
   patch do
     url "https://bitbucket.org/cbuehler/coin/commits/e146a6a93a6b807c28c3d73b3baba80fa41bc5f6/raw"
-    sha256 "ab0c44f55c2e102ea641140652c1a02266b63b075266dd1e8b5e08599fc086e9"
+    sha256 "6ecbd868ed574339b7fec3882e5fdccd40a60094800f9b5c081899091fdc3ab5"
   end
  
   # https://bitbucket.org/Coin3D/coin/issue/23/xcode-clang-error-compiling-freetypecpp
   # Fixes freetype.cpp build issue
   patch :p0 do
     url "https://bitbucket.org/Coin3D/coin/issue-attachment/23/Coin3D/coin/1351441783.52/23/fix-weird-error.diff"
-    sha256 "6ecbd868ed574339b7fec3882e5fdccd40a60094800f9b5c081899091fdc3ab5"
+    sha256 "ab0c44f55c2e102ea641140652c1a02266b63b075266dd1e8b5e08599fc086e9"
   end
 
   def install
