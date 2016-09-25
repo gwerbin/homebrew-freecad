@@ -15,7 +15,7 @@ class Freecad < Formula
 
   # Build without external pivy (use old bundled version)
   option 'without-external-pivy', 'Build without external Pivy (use old bundled version)'
-  
+
   occ_options = []
   if MacOS.version < 10.7
     occ_options = ['--without-tbb']
